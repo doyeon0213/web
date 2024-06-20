@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 박스크기 width값 100% 필수 이미지말고
+콘텐츠 width 1100px, 박스와 콘텐츠 갯수 생각해서 먼저 제작
+box width height 백그라운드, 콘텐츠 위드 하이트 마진0오토 
+박스 백그라운드 이미지- url, 백그라운드 사이즈 커버 , 백그라운드 포지션 센터
+윗기준 길이 맞추는거 패딩탑 그니까 같은거 여러개있을때만 포지션 앱솔루트같은거 써라
+이미지로 된거는 무조건 디스플레이 block*/
+/* .box1{ */
+    /* background-image: url(); */
+    /* background-size: cover; */
+    /* background-position: center; */
+
+.box1{
+    width: 100%;
+    height: 124px;
+    background-size: cover;
+    background-position: center;
+    background-color: #FFC423;
+    position: relative;
+}
+/* 이미지 top같은거로 조정 */
+.con1{
+    width: 1100px;
+    height: 124px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img01{
+    display: block;
+    position: absolute;
+    top: 18px;
+}
+
+.box2{
+    width: 100%;
+    height: 954px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/box1-1.png);
+    position: relative;
+}
+.con2{
+    width: 1100px;
+    height: 954px;
+    margin: 0 auto;
+    position: relative;
+}
+.img02{
+    display: block;
+    position: absolute;
+    top: 52px;
+}
+.img03{
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 6px;
+}
+/* box2 */
+.box3{
+    width: 100%;
+    height: 932px;
+    background-size: cover;
+    background-position: center;
+    background-color: #FDF3D0;
+}
+.con3{
+    width: 1100px;
+    height: 932px;
+    margin: 0 auto;
+    position: relative;
+}
+.img04{
+    display: block;
+    position: absolute;
+    top: 76px;
+    left: 35px;
+}
+.img05{
+    display: block;
+    position: absolute;
+    bottom: 399px;
+    right: 355px;
+}
+.txt01{
+    position: absolute;
+    width: 318px;
+    height: 158px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #23212A;
+    text-align: left;
+    right: 172px;
+    top: 567px;
+}
+.highlight{
+    color: red;
+}
+.txt02{
+    position: absolute;
+    bottom: 76px;
+    right: 0;
+    width: 490px;
+    height: 115px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #707070;
+    text-align: left;
+}
+
+.box4{
+    width: 100%;
+    height: 1323px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/box3.png);
+}
+.con4{
+    width: 1100px;
+    height: 1323px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.img06{
+    display: block;
+    position: absolute;
+    padding-top: 62px;
+    left: 224px;
+}
+.txt03{
+    position: absolute;
+    width: 1100px;
+    height: 58px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    text-align: center;
+    top: 987px;
+    
+}
+.txt04{
+    position: absolute;
+    width: 1100px;
+    height: 155px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    letter-spacing: -0.5px;
+    color: #FFFFFF;
+    text-align: center;
+    bottom: 87px;   
+}
+.box5{
+    width: 100%;
+    height: 882px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/box4.png);
+}
+.con5{
+    width: 1100px;
+    height: 882px;
+    margin: 0 auto;
+    position: relative;
+}
+.img07{
+    display: block;
+    position: absolute;
+    top: 79px;
+    left: 127px;
+}
+.box6{
+    width: 100%;
+    height: 1588px;
+    background-size: cover;
+    background-position: center;
+    background-color: #F3FF46;
+}
+.con6{
+    width: 1100px;
+    height: 1588px;
+    margin: 0 auto;
+    position: relative;
+}
+.img08{
+    display: block;
+    position: absolute;
+    top: 83px;
+}
+.img09{
+    display: block;
+    position: absolute;
+    top: 83px;
+    right: 0;
+}
+.img10{
+    display: block;
+    position: absolute;
+    bottom: 405px;
+}
+.img11{
+    display: block;
+    position: absolute;
+    bottom: 405px;
+    right: 0;
+}
+.txt05{
+    position: absolute;
+    width: 1100px;
+    height: 58px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 58px;
+    letter-spacing: -0.5px;
+    color: black;
+    text-align: center;
+    bottom: 270px;  
+}
+.txt06{
+    position: absolute;
+    width: 1100px;
+    height: 164px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: -0.5px;
+    color: black;
+    text-align: center;
+    bottom: 83px;  
+}
+
+.box7{
+    width: 100%;
+    height: 1268px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/box6.png);
+    text-align: center;
+}
+.con7{
+    width: 1100px;
+    height: 1268px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+.img12{
+    display: block;
+    position: absolute;
+    left: 412px;
+    top: 44px;
+}
+.img13{
+    display: block;
+    position: absolute;
+    top: 250px;
+    left: 296px;
+    
+}.img14{
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 48px;
+    
+}
+
